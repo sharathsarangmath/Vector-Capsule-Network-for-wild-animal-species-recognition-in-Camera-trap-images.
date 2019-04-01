@@ -1,5 +1,6 @@
+                              MSc Data Science Thesis
+
 # Vector Capsule Network for wild animal species recognition in Camera trap images
-MSc Data Science Thesis
 
 ## Abstract
 The most critical task in Ecology is observing and studying the wild animals in their natural
@@ -28,6 +29,9 @@ Network has obtained state-of-the-art results on the dataset with the objects wi
 transformations (https://arxiv.org/pdf/1710.09829.pdf), and can, therefore, be expected to
 perform better than Convolutional Neural Networks on camera trap images.
 
+## Research Question 
+Is Capsule Network better than Convolutional Neural Network in classifying wild animal
+species in camera trap images?
 
 
 
