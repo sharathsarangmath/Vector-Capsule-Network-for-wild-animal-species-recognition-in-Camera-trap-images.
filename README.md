@@ -1,4 +1,4 @@
-                              MSc Data Science Thesis
+                                          MSc Data Science Thesis
 
 # Vector Capsule Network for wild animal species recognition in Camera trap images
 
