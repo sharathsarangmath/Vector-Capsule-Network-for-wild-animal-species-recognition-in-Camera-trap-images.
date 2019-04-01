@@ -20,4 +20,14 @@ The work further tests the robustness of the newly introduced 'Capsule Network,'
 comparing its performance with the Convolutional Neural Network. The results achieved
 indicate that the Capsule Networks are better at understanding images than ConvNets.
 
+## Hypothesis
+The camera trap images of wild animals are the kind of images where Convolutional Neural
+Networks may have a problem, because of species exhibiting a variety of poses and therefore,
+Capsule Networks can be expected to outperform Convolutional Neural Networks. Capsule
+Network has obtained state-of-the-art results on the dataset with the objects with affine
+transformations (https://arxiv.org/pdf/1710.09829.pdf), and can, therefore, be expected to
+perform better than Convolutional Neural Networks on camera trap images.
+
+
+
 
