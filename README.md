@@ -33,5 +33,21 @@ perform better than Convolutional Neural Networks on camera trap images.
 Is Capsule Network better than Convolutional Neural Network in classifying wild animal
 species in camera trap images?
 
+## Dataset
+An annotated camera-trap dataset of 20 species commonly found in North -
+America is used for training the model. The dataset contains 15826 images of 20 species
+namely Agouti, Bird spec, Coiban Agouti, Collared Peccary, Common Opossum, European
+Hare, Great Tinamou, Mouflon, Ocelot, Paca, Red Brocket Deer, Red Deer, Red Fox, Red
+Squirrel, Roe Deer, Spiny Rat, White-Tailed Deer, White-nosed Coati, Wild Boar, and Wood
+Mouse. The dataset contains a collection of gray-scale and color images. 
+
+The images captured at night are in gray-scales and images captured in daytime are in colored.
+
+Every image contains only one species out of 20 species. 80% of the dataset, i.e., 12660
+images is used for training and the rest 20% for testing.
+
+
+
+
 
 
