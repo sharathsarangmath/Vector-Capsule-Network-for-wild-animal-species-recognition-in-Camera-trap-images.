@@ -46,6 +46,9 @@ The images captured at night are in gray-scales and images captured in daytime a
 Every image contains only one species out of 20 species. 80% of the dataset, i.e., 12660
 images is used for training and the rest 20% for testing.
 
+![](Images/Page_00.png)
+![](Images/Page_01.png)
+
 
 
 
