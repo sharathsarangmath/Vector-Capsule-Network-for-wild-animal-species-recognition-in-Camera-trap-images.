@@ -44,7 +44,13 @@ INPUT -> CONV1 -> ReLU -> CONV2 -> ReLU -> POOL -> DROPOUT -> FC -> ReLU -> DROP
 #### CNN Specification
 
 ![](Images/CNNSpec.png)
+### Capsule Network Architecture used for wild animal species classification.
 
+The architecture is similar to the one presented in paper (Hinton,Sabour and Frosst, 2017, https://arxiv.org/pdf/1710.09829.pdf).
+
+INPUT -> CONV1 -> ReLU - >PRIMARYCAPS - > SPECIESCAPS -> FC -> FC
+
+![](Images/CapsNetArch.png)
 
 
 
