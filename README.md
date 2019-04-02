@@ -21,7 +21,11 @@ The images captured at night are in gray-scales and images captured in daytime a
 
 Every image contains only one species out of 20 species. 80% of the dataset, i.e., 12660 images is used for training and the rest 20% for testing.
 
-Link to Dataset Repo https://drive.google.com/open?id=14vII7LJP8Hv-Uz4Av5DA33_Hyz95PL0I
+Link to Dataset Repo 
+https://data.world/deana/camera-traped-wild-animals-images
+or
+https://drive.google.com/open?id=14vII7LJP8Hv-Uz4Av5DA33_Hyz95PL0I
+
 
 ![](Images/Page_00.png)
 ![](Images/Page_01.png)
@@ -35,6 +39,7 @@ INPUT -> CONV1 -> ReLU -> CONV2 -> ReLU -> POOL -> DROPOUT -> FC -> ReLU -> DROP
 ![](Images/CNNArch.png)
 
 #### CNN Specification
+
 
 
 
