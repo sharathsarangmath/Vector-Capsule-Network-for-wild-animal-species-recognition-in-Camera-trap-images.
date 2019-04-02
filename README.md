@@ -43,6 +43,8 @@ INPUT -> CONV1 -> ReLU -> CONV2 -> ReLU -> POOL -> DROPOUT -> FC -> ReLU -> DROP
 
 #### CNN Specification
 
+![](Images/CNNSpec.png)
+
 
 
 
