@@ -54,7 +54,7 @@ INPUT -> CONV1 -> ReLU - >PRIMARYCAPS - > SPECIESCAPS -> FC -> FC
 
 #### CapsNet Specification
 
-![](Images/CapsNetSpec.png)
+![](Images/CapsnetSpec.png)
 
 
 
