@@ -23,7 +23,9 @@ Every image contains only one species out of 20 species. 80% of the dataset, i.e
 
 Link to Dataset Repo 
 https://data.world/deana/camera-traped-wild-animals-images
+
 or
+
 https://drive.google.com/open?id=14vII7LJP8Hv-Uz4Av5DA33_Hyz95PL0I
 
 
