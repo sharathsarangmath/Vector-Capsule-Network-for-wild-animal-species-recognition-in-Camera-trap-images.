@@ -30,6 +30,11 @@ The architecture consists of two convolution layer with ReLU activation function
 
 INPUT -> CONV1 -> ReLU -> CONV2 -> ReLU -> POOL -> DROPOUT -> FC -> ReLU -> DROPOUT - > FC - > SOFTMAX
 
+![](Images/CNNArch.png)
+
+#### CNN Specification
+
+
 
 
 
