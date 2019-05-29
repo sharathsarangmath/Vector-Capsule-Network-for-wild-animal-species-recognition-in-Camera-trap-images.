@@ -83,6 +83,8 @@ The Convolutional Neural Network for wild animal species recognition without dat
 
 The Capsule network architecture considered for this experiment achieved 63.90% accuracy and loss of 0.29 in 40 epochs with data augmentation.
 
+![](Images/Capsnet_Acc_Curve.png)
+
 
 
 
