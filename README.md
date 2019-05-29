@@ -77,7 +77,9 @@ both the models is time-consuming and computationally expensive, the number of e
 
 # Results 
 
-The Convolutional Neural Network for wild animal species recognition without data augmentation achieved a test accuracy of 55.36% , and test loss (Mean Square Error) of 0.029 in 40 epochs. The Accuracy and Loss plot are visualized as shown:
+The Convolutional Neural Network for wild animal species recognition without data augmentation achieved a test accuracy of 55.36% , and test loss (Mean Square Error) of 0.029 in 40 epochs.
+
+The Capsule network architecture considered for this experiment achieved 63.90% accuracy and loss of 0.29 in 40 epochs with data augmentation.
 
 
 
