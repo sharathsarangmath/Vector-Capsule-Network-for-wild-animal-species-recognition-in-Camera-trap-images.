@@ -86,6 +86,11 @@ The Capsule network architecture considered for this experiment achieved 63.90% 
 ![](Images/Capsnet_Acc_Curve.png)
 
 
+# Conclusions
+
+A Vector capsule network was presented to solve the problem of classifying wild-animal species in camera trap images. The Capsule Network achieved an accuracy of 63.90% which is not a satisfactory result but still outperformed the performance of Convolutional Neural Network which obtained an accuracy of 55.36% in classifying the wild animal species in camera traps. Hence, it proves that the hypothesis stated is correct, and answers to the research question that "Capsule Network is better than Convolution Neural Network in classifying the wild-animals in the camera trap images.",
+
+
 
 
 
