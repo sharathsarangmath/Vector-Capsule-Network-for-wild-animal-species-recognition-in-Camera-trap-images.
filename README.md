@@ -56,6 +56,30 @@ INPUT -> CONV1 -> ReLU - >PRIMARYCAPS - > SPECIESCAPS -> FC -> FC
 
 ![](Images/CapsnetSpec.png)
 
+## Hardware Used
+
+Since image recognition using deep learning involves many complex matrix calculations, training a model requires a certain amount of computing resources. In recent year, the use of GPU ( Graphical Processing Units) is becoming popular for deep learning, without which the training would take several days or months to obtain practical results.
+
+For the experiment, two systems are used as mentioned below:
+
+(i) A Macintosh with macOS High Sierra (v10.13.3) with 1.8 GHz Intel Core i5, memory of 8GB 1600 MHz DDR3 and Intel HD Graphics 6000 of 1536 MB, to execute Convolutional Neural Network.
+
+(ii) A cloud computing instance; Amazon's Web Services (AWS) EC2 cloud computing (Elastic Compute 2), is set up with g2.2xlarge GPU. This version of the instance has 15GB Memory, 60GB of local SSD storage, 8 vCPU and a single NVIDIA Kepler GK104 graphics card with 1536 CUDA cores, for the execution of Capsule Network.
+
+# Programming language used
+
+Python 3 is used as the programming language with keras framework using tensorflow backend. Keras is a user-friendly open source neural network library written in python. It can be used on top of tensorflow or theano.
+
+# Traning the networks
+
+The Convolutional Neural Network was trained on the first-mentioned hardware, and the Capsule Network was trained on the AWS cloud instance. Both the networks are trained using ADAM optimizer with an initial learning rate of 0.001. Since training
+both the models is time-consuming and computationally expensive, the number of epochs chosen was 40 and a batch size of 32 for both the models.  
+
+# Results 
+
+The Convolutional Neural Network for wild animal species recognition without data augmentation achieved a test accuracy of 55.36% , and test loss (Mean Square Error) of 0.029 in 40 epochs. The Accuracy and Loss plot are visualized as shown:
+
+
 
 
 
